@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Namaz Time — Privacy Policy</title>
+  <style>
+    :root { color-scheme: light dark; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      background: #0b1020;
+      color: #e8ecf4;
+      font-family: system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+      line-height: 1.7;
+      font-size: 1rem;
+    }
+    main { max-width: 48rem; margin: 0 auto; padding: 2.5rem 1.25rem 5rem; }
+    h1 { font-size: 1.85rem; margin: 0 0 .3rem; }
+    h2 { font-size: 1.15rem; margin-top: 2.5rem; margin-bottom: .5rem; color: #cdd6ec; border-bottom: 1px solid #1e2d50; padding-bottom: .35rem; }
+    p, li { color: #b8c2da; }
+    a { color: #5aa0ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    code { background: #141c33; padding: .1rem .35rem; border-radius: .3rem; font-size: .9em; color: #9fd8ff; }
+    .meta { color: #7888a8; font-size: .88rem; margin: 0 0 .15rem; }
+    .note {
+      background: #141c33;
+      border-left: 3px solid #3a5090;
+      border-radius: 0 .5rem .5rem 0;
+      padding: .6rem 1rem;
+      margin: 1.2rem 0;
+      color: #98a4c2;
+      font-size: .93rem;
+    }
+    .warn {
+      background: #1e1500;
+      border-left: 3px solid #a07000;
+      border-radius: 0 .5rem .5rem 0;
+      padding: .6rem 1rem;
+      margin: 1.2rem 0;
+      color: #c8a840;
+      font-size: .93rem;
+    }
+    table { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .92rem; }
+    th { background: #141c33; color: #9aa8c8; font-weight: 600; text-align: left; padding: .55rem .75rem; }
+    td { border-bottom: 1px solid #1a2540; padding: .5rem .75rem; color: #b0bcd6; vertical-align: top; }
+    tr:last-child td { border-bottom: none; }
+    ul { padding-left: 1.4rem; }
+    li { margin-bottom: .3rem; }
+    hr { border: none; border-top: 1px solid #1a2540; margin: 2rem 0; }
+    .footer { margin-top: 3rem; font-size: .85rem; color: #566080; text-align: center; }
+    .footer a { color: #4a80d0; }
+    @media (max-width: 600px) {
+      table { font-size: .82rem; }
+      td, th { padding: .4rem .5rem; }
+      h1 { font-size: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+<main>
+
+  <h1>Namaz Time &mdash; Privacy Policy</h1>
+  <p class="meta">Version 1.1 &middot; Last updated: 2026-06-12</p>
+  <p class="meta">Applies to the <strong>Namaz Time</strong> Android app &middot; Package: <code>com.namaztime.app</code> &middot; Publisher: <strong>Microman Play</strong></p>
+
+  <hr>
+
+  <h2>1. Who we are</h2>
+  <p>Namaz Time is an independent, ad-supported prayer-times, azan-reminder and Hijri-calendar
+  app for the Indian market. There is <strong>no user account, no login, and no backend server</strong>
+  operated by us that stores your personal data. Prayer-time and Qibla calculations run
+  <strong>entirely on your device</strong>.</p>
+
+  <ul>
+    <li><strong>Publisher / Data Fiduciary (DPDP Act 2023):</strong> Microman Play (studio) &mdash; Namaz Time app (package <code>com.namaztime.app</code>).</li>
+    <li><strong>Grievance Officer (DPDP Act 2023 &sect;13):</strong> [to be named before launch &mdash; a real natural person]</li>
+    <li><strong>Grievance / privacy contact:</strong> <a href="mailto:dev.microman.play@gmail.com">dev.microman.play@gmail.com</a></li>
+    <li><strong>Response SLA:</strong> acknowledged within 7 days, resolved within <strong>30 days</strong>.</li>
+  </ul>
+
+  <div class="warn">
+    &#9888;&#65039; <strong>Launch gate:</strong> the Grievance Officer must be a named, contactable natural person before submission.
+    The placeholder above is NOT shippable. <code>dev.microman.play@gmail.com</code> is the interim reachable contact;
+    update to <code>privacy@namaztime.app</code> once the custom domain is set up.
+  </div>
+
+  <hr>
+
+  <h2>2. What data the App uses, and where it goes</h2>
+  <p>We practise <strong>data minimisation</strong>. The App does <strong>not</strong> collect a name, email, phone
+  number, or any account identifier, because there is no account.</p>
+
+  <table>
+    <thead>
+      <tr><th>Data</th><th>Why</th><th>Where it goes</th><th>Retention</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Approximate / precise location</strong> (GPS or a city you pick)</td>
+        <td>To compute prayer times and Qibla direction &mdash; solar/geographic geometry</td>
+        <td><strong>Stays on your device.</strong> We <strong>never</strong> pass your GPS/precise location to AdMob or any server we operate.
+            <em>(Note: Google&rsquo;s AdMob SDK independently derives an <strong>approximate</strong> location from your <strong>IP address</strong>
+            &mdash; see below &mdash; but it does not receive the precise GPS fix this app computes with.)</em></td>
+        <td>On-device only; cleared when you clear app data or uninstall</td>
+      </tr>
+      <tr>
+        <td><strong>Advertising ID (AAID) + IP address + coarse device info</strong></td>
+        <td><strong>Only in the free, ad-supported version.</strong> Google AdMob uses these to serve and measure <strong>non-personalised</strong> ads</td>
+        <td><strong>Shared with Google</strong> as our advertising partner, per Google&rsquo;s policies</td>
+        <td>Governed by Google&rsquo;s retention; you can reset or <strong>delete</strong> the AAID in Android Settings (Android 12+ &ldquo;Delete advertising ID&rdquo;)</td>
+      </tr>
+      <tr>
+        <td><strong>Your settings</strong> (city, calculation method, madhab, offsets, language, reminder toggles)</td>
+        <td>To remember your preferences</td>
+        <td><strong>Stays on your device</strong> (local storage)</td>
+        <td>Until you change them, clear data, or uninstall</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <p><strong>We do not sell your personal data, and we do not operate any analytics or tracking
+  backend.</strong> However, because the free version shows Google ads, the AdMob SDK does collect
+  and share an advertising identifier, IP address and limited device information with Google
+  to serve those ads. We disclose this honestly here and in the Google Play <strong>Data Safety</strong>
+  section, and this Policy and that form are kept consistent.</p>
+
+  <p>Because the App&rsquo;s purpose reveals that you are a Muslim, we treat this as sensitive and
+  <strong>minimise accordingly</strong>: ads are <strong>non-personalised</strong> (no behavioural/interest profiling),
+  we share <strong>no</strong> in-app activity, and your calculation method/madhab are kept
+  <strong>on-device only</strong> and never sent to Google.</p>
+
+  <div class="note">
+    If and when an <strong>ad-free option</strong> is offered, that version will not load the AdMob SDK and
+    therefore will not collect or share the advertising identifier.
+  </div>
+
+  <hr>
+
+  <h2>3. Permissions we request and why</h2>
+  <ul>
+    <li><strong>Location (coarse/fine, one-shot, foreground only):</strong> to compute prayer times &amp; Qibla.
+      We do <strong>not</strong> request background location and the App does not track you in the background.</li>
+    <li><strong>Exact alarms (<code>USE_EXACT_ALARM</code> / <code>SCHEDULE_EXACT_ALARM</code>):</strong> so the azan reminder fires at
+      the exact prayer time &mdash; this is the App&rsquo;s core function.</li>
+    <li><strong>Notifications (<code>POST_NOTIFICATIONS</code>):</strong> to show the prayer reminder. Widget and lock-screen
+      notification content is computed entirely on your device &mdash; nothing is sent anywhere. Defaults are
+      generic (&ldquo;Next prayer&rdquo;) so your religious activity is not exposed to bystanders unless you opt in.</li>
+    <li><strong>Foreground service (short):</strong> to briefly play the azan audio reliably.</li>
+    <li><strong>Receive boot completed:</strong> to re-arm your prayer alarms after the phone restarts.</li>
+  </ul>
+  <p>You can revoke any permission in Android Settings; some features (e.g. azan reminders)
+  will stop working without the related permission.</p>
+
+  <hr>
+
+  <h2>4. Children (DPDP Act 2023 &sect;9)</h2>
+  <p>The App is a general-audience religious utility and is <strong>not</strong> directed at children, and we
+  do <strong>not</strong> knowingly collect any personal data from children. Because we collect no age
+  and no account, we cannot profile or behaviourally target anyone, including minors.</p>
+  <p>For advertising, the free version configures Google AdMob to <strong>treat traffic as
+  under-the-age-of-consent / child-directed where applicable and to force non-personalised
+  ads</strong>, and performs <strong>no behavioural tracking</strong>. We do not knowingly process a child&rsquo;s
+  personal data for tracking or targeted advertising.</p>
+
+  <hr>
+
+  <h2>5. Your rights (DPDP Act 2023)</h2>
+  <p>As a Data Principal you may:</p>
+  <ul>
+    <li><strong>Access / know</strong> what data is used (this Policy describes all of it).</li>
+    <li><strong>Correct</strong> your settings (editable in-app at any time).</li>
+    <li><strong>Erase</strong> your data &mdash; because data lives on your device, you can erase it instantly via
+      <em>Android Settings &rarr; Apps &rarr; Namaz Time &rarr; Clear data</em> or by uninstalling.
+      Resetting your Advertising ID in Android Settings clears the ad identifier shared with Google.</li>
+    <li><strong>Grieve</strong> &mdash; contact the Grievance Officer above; we respond within 30 days.</li>
+    <li><strong>Withdraw consent</strong> &mdash; revoke location/notification permissions in Android Settings at any
+      time, and stop the advertising-ID processing by tapping
+      <em>Android Settings &rarr; Privacy &rarr; Ads &rarr; <strong>Delete advertising ID</strong></em> (Android 12+).
+      You can also <strong>re-open the ad-consent (UMP) options at any time in-app via
+      <em>More &rarr; &ldquo;Ad privacy options&rdquo;</em></strong>.</li>
+  </ul>
+  <p>We do <strong>not</strong> transfer your personal data outside India through any service we operate.
+  Google&rsquo;s ad processing is governed by Google&rsquo;s own policies and cross-border terms.</p>
+  <p>This Privacy Policy is <strong>governed by the laws of India</strong> and read together with our Terms
+  of Use; the DPDP Act 2023 applies.</p>
+
+  <hr>
+
+  <h2>6. Security</h2>
+  <p>The App stores your preferences and cached prayer times locally on your device using
+  standard Android storage. We hold no central database of users, which materially reduces
+  the risk of a data breach affecting you.</p>
+  <p><strong>Personal-data-breach handling (DPDP Act 2023 &sect;8(6)):</strong> in the unlikely event of a personal
+  data breach affecting data we control, we will notify the <strong>Data Protection Board of India</strong> and
+  each <strong>affected Data Principal</strong> in the form and manner prescribed under the Act, without undue
+  delay. Because the App holds no central user database and prayer/location data lives only on your
+  device, the realistic breach surface is limited to the advertising identifier processed by Google
+  (governed by Google&rsquo;s own breach obligations).</p>
+
+  <hr>
+
+  <h2>7. Third parties</h2>
+  <ul>
+    <li><strong>Google AdMob / Google Mobile Ads SDK</strong> (free version only) &mdash; serves ads; see
+      <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google&rsquo;s privacy policy</a> and
+      <a href="https://policies.google.com/technologies/partner-sites" target="_blank" rel="noopener">how Google uses information from sites or apps that use our services</a>.</li>
+    <li>The App contains <strong>no other analytics, attribution, or social-login SDKs.</strong></li>
+    <li><strong>Bundled open-source content</strong> transmits nothing: the App includes offline city data from
+      <strong>GeoNames</strong> (&copy; GeoNames, CC BY 4.0), the <strong><code>adhan</code></strong> prayer-times library (MIT),
+      SIL OFL fonts, and Apache-2.0 platform components. All run entirely on your device.
+      Licences are listed in-app at <em>More &rarr; &ldquo;Open-source licenses&rdquo;</em>.</li>
+  </ul>
+
+  <hr>
+
+  <h2>8. Changes</h2>
+  <p>We may update this Policy. Material changes will be reflected in the App&rsquo;s <em>More &rarr; Privacy</em>
+  screen and at the hosted URL, with an updated &ldquo;Last updated&rdquo; date. For changes that
+  <strong>materially affect how we handle your personal data</strong>, we will seek your
+  <strong>fresh, affirmative consent</strong> in-app rather than relying on continued use,
+  consistent with the DPDP Act 2023 &sect;6.</p>
+
+  <hr>
+
+  <h2>9. Contact</h2>
+  <p>Questions or grievances:<br>
+  <strong><a href="mailto:dev.microman.play@gmail.com">dev.microman.play@gmail.com</a></strong><br>
+  <em>(Grievance Officer &mdash; real named person to be designated before launch.
+  Once <code>privacy@namaztime.app</code> is live on the custom domain, that address will replace this one.)</em></p>
+
+  <hr>
+
+  <div class="footer">
+    <p><a href="https://micromanplay.github.io/">Microman Play</a> &middot; <a href="https://micromanplay.github.io/namaztime/">Namaz Time</a></p>
+    <p>&copy; 2026 Microman Play &middot; <code>com.namaztime.app</code></p>
+  </div>
+
+</main>
+</body>
+</html>
