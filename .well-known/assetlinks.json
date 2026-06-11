@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.raahmetro.app",
+      "sha256_cert_fingerprints": [
+        "23:F6:D1:9E:40:F6:4A:CF:1D:63:62:DB:F2:02:A9:D6:FD:C6:D3:FF:EB:FC:13:CD:18:F8:E2:EA:22:AC:BF:7E"
+      ]
+    }
+  }
+]
